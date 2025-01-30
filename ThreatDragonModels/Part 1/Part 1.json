@@ -2006,7 +2006,7 @@
         "cells": [
           {
             "position": {
-              "x": 340,
+              "x": 130,
               "y": 160
             },
             "size": {
@@ -2014,6 +2014,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Administrator"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -2022,6 +2025,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2105,10 +2109,9 @@
               ]
             },
             "id": "b704e84a-7e54-4eed-a84f-20cb5948ae75",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Administrator",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
