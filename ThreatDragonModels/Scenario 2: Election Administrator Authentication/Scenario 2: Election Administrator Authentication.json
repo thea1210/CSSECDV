@@ -886,7 +886,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Request User\nCredentials",
+              "name": "Administrator\nDashboard",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -898,7 +898,7 @@
               "threats": []
             },
             "labels": [
-              "Request User\nCredentials"
+              "Administrator\nDashboard"
             ],
             "id": "18102151-1037-4c7e-a708-19f8fd9306a9",
             "source": {
@@ -935,6 +935,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1018,7 +1019,6 @@
               ]
             },
             "id": "5543cd2f-1615-47b0-b3dc-696c92722adc",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Administrator",
