@@ -2525,7 +2525,13 @@
             },
             "target": {
               "cell": "37a39357-7ec4-4dc0-aeab-cc52229c925b"
-            }
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 280
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2756,6 +2762,54 @@
               {
                 "x": 190,
                 "y": 299
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Success\nRespons",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Success\nRespons"
+            ],
+            "id": "16ab5276-c973-4aa8-8f0e-5e350e4f01f8",
+            "source": {
+              "cell": "37a39357-7ec4-4dc0-aeab-cc52229c925b"
+            },
+            "target": {
+              "cell": "e1611cda-8247-47d6-b76d-fcb31c96962d"
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 290
               }
             ]
           },
