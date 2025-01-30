@@ -2141,6 +2141,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -2224,7 +2225,6 @@
               ]
             },
             "id": "d2c825f6-c901-459b-bef3-9abe07a394a4",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Registration\nForm",
@@ -2260,6 +2260,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -2343,7 +2344,6 @@
               ]
             },
             "id": "ff909f07-d038-4d7a-a651-ff2c53609f1b",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Load\nCSV",
@@ -2379,6 +2379,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -2462,7 +2463,6 @@
               ]
             },
             "id": "6164254b-e3a6-4edc-a67d-5c95119ab656",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Web Application",
@@ -2495,6 +2495,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -2578,7 +2579,6 @@
               ]
             },
             "id": "77a75bfe-cfea-43ee-987c-5f304655f58d",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "jsrsasign.js",
@@ -2614,6 +2614,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -2697,7 +2698,6 @@
               ]
             },
             "id": "2adfa378-9d5c-44f6-93ff-dba76a078a2f",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "node.js",
@@ -2733,6 +2733,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -2816,7 +2817,6 @@
               ]
             },
             "id": "e1467326-8018-42ae-9e26-bcdc9eae3e04",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "password-gen.js",
@@ -2855,6 +2855,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -2938,7 +2939,6 @@
               ]
             },
             "id": "e83fa95b-1d2f-4440-b80f-719e9d6b85e1",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -3797,6 +3797,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -3880,7 +3881,6 @@
               ]
             },
             "id": "607fac76-ad0a-4e5e-9181-a26b9e3a7a3e",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Password\nHashing",
@@ -3916,6 +3916,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -3999,7 +4000,6 @@
               ]
             },
             "id": "39ad1783-da2b-423d-ae91-ab5fe1f73dc3",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "PKCS#5",
