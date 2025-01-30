@@ -4161,6 +4161,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -4244,7 +4245,6 @@
               ]
             },
             "id": "e1611cda-8247-47d6-b76d-fcb31c96962d",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Web Application",
@@ -4280,6 +4280,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -4363,7 +4364,6 @@
               ]
             },
             "id": "37a39357-7ec4-4dc0-aeab-cc52229c925b",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -4679,7 +4679,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Success\nRespons",
+              "name": "Success\nResponse",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -4691,7 +4691,7 @@
               "threats": []
             },
             "labels": [
-              "Success\nRespons"
+              "Success\nResponse"
             ],
             "id": "16ab5276-c973-4aa8-8f0e-5e350e4f01f8",
             "source": {
@@ -4705,7 +4705,17 @@
                 "x": 510,
                 "y": 290
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -4728,6 +4738,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -4811,7 +4822,6 @@
               ]
             },
             "id": "dd9913f0-696c-4e73-bf8f-9e8ecd39607d",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Registration\nForm",
@@ -4847,6 +4857,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -4930,7 +4941,6 @@
               ]
             },
             "id": "74627182-0ea2-462b-abc8-c2994822e562",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Load from\nCSV",
