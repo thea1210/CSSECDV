@@ -5105,6 +5105,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -5188,7 +5189,6 @@
               ]
             },
             "id": "b00e0a2a-26ce-4577-bc95-e08a64421ba3",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Voter",
@@ -5224,6 +5224,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -5307,7 +5308,6 @@
               ]
             },
             "id": "168c9adc-79a8-485f-b341-48c12d8d9301",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -5344,6 +5344,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -5427,7 +5428,6 @@
               ]
             },
             "id": "3ab2c996-1654-4efb-bdac-37e3d8f97203",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Ethereum\nBlockchain",
@@ -5991,6 +5991,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -6074,7 +6075,6 @@
               ]
             },
             "id": "6883ffa8-30c6-42c0-b247-e92eaea964ad",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Controller",
@@ -6110,6 +6110,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -6193,7 +6194,6 @@
               ]
             },
             "id": "1382b249-d502-4b5d-965c-24741c822e56",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Election\nModule",
