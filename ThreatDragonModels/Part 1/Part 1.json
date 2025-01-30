@@ -1143,7 +1143,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Credential\nAuthentication"
+                "text": "node.js"
               },
               "body": {
                 "stroke": "#333333",
@@ -1239,7 +1239,7 @@
             "id": "cce88c9b-ea6b-4fa8-b096-49c89483d343",
             "data": {
               "type": "tm.Process",
-              "name": "Credential\nAuthentication",
+              "name": "node.js",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1249,6 +1249,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
