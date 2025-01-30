@@ -30,14 +30,6 @@
             },
             "id": "a1c092bf-af6d-4da5-90a5-29bb8a86ba51",
             "zIndex": 0,
-            "source": {
-              "cell": "3672efac-3522-4986-bfd5-ba673d6055cd",
-              "port": "b92760c3-c929-4d45-b71f-c4e20a70c4a9"
-            },
-            "target": {
-              "x": 710,
-              "y": 400
-            },
             "data": {
               "type": "tm.Flow",
               "name": "Data Flow",
@@ -50,6 +42,14 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": []
+            },
+            "source": {
+              "cell": "3672efac-3522-4986-bfd5-ba673d6055cd",
+              "port": "b92760c3-c929-4d45-b71f-c4e20a70c4a9"
+            },
+            "target": {
+              "x": 710,
+              "y": 400
             }
           },
           {
@@ -418,7 +418,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Credential\nValidation"
+                "text": "Credential\nAuthentication"
               },
               "body": {
                 "stroke": "#333333",
@@ -514,7 +514,7 @@
             "id": "3672efac-3522-4986-bfd5-ba673d6055cd",
             "data": {
               "type": "tm.Process",
-              "name": "Credential\nValidation",
+              "name": "Credential\nAuthentication",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -546,7 +546,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User Credentials",
+              "name": "Login\nRequest",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -558,7 +558,7 @@
               "threats": []
             },
             "labels": [
-              "User Credentials"
+              "Login\nRequest"
             ],
             "id": "8c5abaa0-ba36-481d-94ec-04e2d8a2ed79",
             "source": {
@@ -569,8 +569,108 @@
             },
             "vertices": [
               {
-                "x": 520,
+                "x": 510,
                 "y": 210
+              },
+              {
+                "x": 540,
+                "y": 210
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login\nResponse",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Login\nResponse"
+            ],
+            "id": "d8c0937f-9a4f-46eb-8fb1-b218e9418d2e",
+            "source": {
+              "cell": "6461cc43-79dd-4b82-9059-1a23718d8738"
+            },
+            "target": {
+              "cell": "5c8481a8-8916-4cb0-9ba8-93033b2b3754"
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Authentication\nRequest",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Authentication\nRequest"
+            ],
+            "id": "24be4625-d555-4d26-bc1b-914afe25fdf9",
+            "source": {
+              "cell": "6461cc43-79dd-4b82-9059-1a23718d8738"
+            },
+            "target": {
+              "cell": "3672efac-3522-4986-bfd5-ba673d6055cd"
+            },
+            "vertices": [
+              {
+                "x": 590,
+                "y": 320
               }
             ]
           },
@@ -608,17 +708,121 @@
             "labels": [
               "Authentication\nResponse"
             ],
-            "id": "d8c0937f-9a4f-46eb-8fb1-b218e9418d2e",
+            "id": "8e9e991c-8d5e-420f-b523-7648c0dce871",
             "source": {
-              "cell": "6461cc43-79dd-4b82-9059-1a23718d8738"
+              "cell": "3672efac-3522-4986-bfd5-ba673d6055cd"
             },
             "target": {
-              "cell": "5c8481a8-8916-4cb0-9ba8-93033b2b3754"
+              "cell": "6461cc43-79dd-4b82-9059-1a23718d8738"
             },
             "vertices": [
               {
-                "x": 520,
-                "y": 270
+                "x": 720,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verification\nRequest",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Verification\nRequest"
+            ],
+            "id": "d1c8991a-eee4-4814-9f3e-6e2e1e9aaf06",
+            "source": {
+              "cell": "3672efac-3522-4986-bfd5-ba673d6055cd"
+            },
+            "target": {
+              "cell": "916e0552-c135-4377-97f7-4bf2f6598607"
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 480
+              },
+              {
+                "x": 620,
+                "y": 490
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verification\nResponse",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Verification\nResponse"
+            ],
+            "id": "f9bfb729-3278-4d90-9ed4-ce71977da2e1",
+            "source": {
+              "cell": "916e0552-c135-4377-97f7-4bf2f6598607"
+            },
+            "target": {
+              "cell": "3672efac-3522-4986-bfd5-ba673d6055cd"
+            },
+            "vertices": [
+              {
+                "x": 700,
+                "y": 510
+              },
+              {
+                "x": 710,
+                "y": 490
               }
             ]
           },
@@ -656,17 +860,17 @@
             "labels": [
               "User\nCredentials"
             ],
-            "id": "24be4625-d555-4d26-bc1b-914afe25fdf9",
+            "id": "de2646c3-7029-4154-8334-f565b435f694",
             "source": {
-              "cell": "6461cc43-79dd-4b82-9059-1a23718d8738"
+              "cell": "a835b1e7-6f11-4b19-9507-2bc490575fcf"
             },
             "target": {
-              "cell": "3672efac-3522-4986-bfd5-ba673d6055cd"
+              "cell": "5c8481a8-8916-4cb0-9ba8-93033b2b3754"
             },
             "vertices": [
               {
-                "x": 610,
-                "y": 320
+                "x": 230,
+                "y": 280
               }
             ]
           },
@@ -690,7 +894,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Validation\nResponse",
+              "name": "Request\nUser\nCredentials",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -702,117 +906,141 @@
               "threats": []
             },
             "labels": [
-              "Validation\nResponse"
+              "Request\nUser\nCredentials"
             ],
-            "id": "8e9e991c-8d5e-420f-b523-7648c0dce871",
+            "id": "c99381ef-b288-4c0f-9049-21f492a0866f",
             "source": {
-              "cell": "3672efac-3522-4986-bfd5-ba673d6055cd"
+              "cell": "5c8481a8-8916-4cb0-9ba8-93033b2b3754"
             },
             "target": {
-              "cell": "6461cc43-79dd-4b82-9059-1a23718d8738"
+              "cell": "a835b1e7-6f11-4b19-9507-2bc490575fcf"
             },
             "vertices": [
               {
-                "x": 700,
-                "y": 320
+                "x": 290,
+                "y": 210
+              },
+              {
+                "x": 230,
+                "y": 210
               }
             ]
           },
           {
-            "shape": "flow",
+            "position": {
+              "x": 66,
+              "y": 220
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
             "attrs": {
-              "line": {
+              "text": {
+                "text": "Voter"
+              },
+              "body": {
                 "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "b80b1ced-05f3-4f92-9dd3-a648ce53517b"
+                },
+                {
+                  "group": "right",
+                  "id": "ec35cb10-b95a-4d44-93db-b62fad97e600"
+                },
+                {
+                  "group": "bottom",
+                  "id": "309c7d6c-02bd-4e62-8ea5-64701f11cf6a"
+                },
+                {
+                  "group": "left",
+                  "id": "fcfcd09b-69ff-4437-bd12-833dbbe6bfda"
+                }
+              ]
+            },
+            "id": "a835b1e7-6f11-4b19-9507-2bc490575fcf",
+            "zIndex": 11,
             "data": {
-              "type": "tm.Flow",
-              "name": "Validation\nRequest",
+              "type": "tm.Actor",
+              "name": "Voter",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "providesAuthentication": false,
               "threats": []
-            },
-            "labels": [
-              "Validation\nRequest"
-            ],
-            "id": "d1c8991a-eee4-4814-9f3e-6e2e1e9aaf06",
-            "source": {
-              "cell": "3672efac-3522-4986-bfd5-ba673d6055cd"
-            },
-            "target": {
-              "cell": "916e0552-c135-4377-97f7-4bf2f6598607"
-            },
-            "vertices": [
-              {
-                "x": 620,
-                "y": 490
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Validation\nResponse",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Validation\nResponse"
-            ],
-            "id": "f9bfb729-3278-4d90-9ed4-ce71977da2e1",
-            "source": {
-              "cell": "916e0552-c135-4377-97f7-4bf2f6598607"
-            },
-            "target": {
-              "cell": "3672efac-3522-4986-bfd5-ba673d6055cd"
-            },
-            "vertices": [
-              {
-                "x": 710,
-                "y": 490
-              }
-            ]
+            }
           }
         ]
       }
