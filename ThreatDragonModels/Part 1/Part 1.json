@@ -1160,6 +1160,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -1243,7 +1244,6 @@
               ]
             },
             "id": "cce88c9b-ea6b-4fa8-b096-49c89483d343",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Credential\nAuthentication",
@@ -1279,6 +1279,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -1362,7 +1363,6 @@
               ]
             },
             "id": "767fbe1e-d5d3-452b-a2d8-e2019f1a86ad",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Web Application",
@@ -1395,6 +1395,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -1478,7 +1479,6 @@
               ]
             },
             "id": "2fa3f9ce-3e09-4196-869a-15056f507fe9",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Client Web\nBrowser",
@@ -1511,6 +1511,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -1594,7 +1595,6 @@
               ]
             },
             "id": "f5e7fe97-dfa9-443e-8da6-1a1a8b2651dc",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "Administrator",
