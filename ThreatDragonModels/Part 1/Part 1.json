@@ -5349,8 +5349,34 @@
         "cells": [
           {
             "position": {
-              "x": 780,
-              "y": 215
+              "x": 189.99999999999693,
+              "y": 10.000000000006878
+            },
+            "size": {
+              "width": 1040,
+              "height": 487.5
+            },
+            "attrs": {
+              "headerText": {
+                "text": "Firewall"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "dd16299d-b656-4ad4-a901-c3e8c32ed2d3",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Firewall",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 890,
+              "y": 255
             },
             "size": {
               "width": 60,
@@ -5468,8 +5494,8 @@
           },
           {
             "position": {
-              "x": 450,
-              "y": 30
+              "x": 560,
+              "y": 70
             },
             "size": {
               "width": 112.5,
@@ -5584,8 +5610,8 @@
           },
           {
             "position": {
-              "x": 750,
-              "y": 345
+              "x": 860,
+              "y": 385
             },
             "size": {
               "width": 120,
@@ -5703,12 +5729,15 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            }
+            },
+            "children": [
+              "5d31d3ec-0a5c-462d-8e7c-5fc51e8c9566"
+            ]
           },
           {
             "position": {
-              "x": 150,
-              "y": 0
+              "x": 260,
+              "y": 40
             },
             "size": {
               "width": 90,
@@ -5867,8 +5896,8 @@
             },
             "vertices": [
               {
-                "x": 750,
-                "y": 300
+                "x": 860,
+                "y": 340
               }
             ]
           },
@@ -5915,16 +5944,16 @@
             },
             "vertices": [
               {
-                "x": 880,
-                "y": 320
+                "x": 990,
+                "y": 360
               },
               {
-                "x": 880,
-                "y": 290
+                "x": 990,
+                "y": 330
               },
               {
-                "x": 860,
-                "y": 270
+                "x": 970,
+                "y": 310
               }
             ]
           },
@@ -5971,8 +6000,12 @@
             },
             "vertices": [
               {
-                "x": 460,
-                "y": 130
+                "x": 670,
+                "y": 160
+              },
+              {
+                "x": 670,
+                "y": 200
               }
             ]
           },
@@ -6019,8 +6052,8 @@
             },
             "vertices": [
               {
-                "x": 670,
-                "y": 180
+                "x": 780,
+                "y": 220
               }
             ]
           },
@@ -6067,8 +6100,8 @@
             },
             "vertices": [
               {
-                "x": 720,
-                "y": 245
+                "x": 830,
+                "y": 285
               }
             ]
           },
@@ -6116,7 +6149,7 @@
             "vertices": [
               {
                 "x": 560,
-                "y": 140
+                "y": 180
               }
             ]
           },
@@ -6205,12 +6238,12 @@
             },
             "vertices": [
               {
-                "x": 710,
-                "y": 375
+                "x": 820,
+                "y": 415
               },
               {
-                "x": 610,
-                "y": 380
+                "x": 720,
+                "y": 420
               }
             ]
           },
@@ -6335,27 +6368,139 @@
             ],
             "id": "a4d947bc-6a0e-4e48-93a3-fd34053c7a98",
             "source": {
-              "x": 440,
-              "y": 230
+              "x": 390,
+              "y": 360
             },
             "target": {
               "cell": "3ab2c996-1654-4efb-bdac-37e3d8f97203"
             },
             "vertices": [
               {
-                "x": 370,
+                "x": 350,
+                "y": 340
+              },
+              {
+                "x": 280,
+                "y": 250
+              },
+              {
+                "x": 280,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Blockchain Network",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Blockchain Network"
+            ],
+            "id": "795feacf-4526-48d4-a7f5-360391f1d8ae",
+            "source": {
+              "x": 230,
+              "y": 130
+            },
+            "target": {
+              "x": 410,
+              "y": 50
+            },
+            "vertices": [
+              {
+                "x": 360,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Database Server",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Database Server"
+            ],
+            "id": "4f39798d-08f6-44f6-adba-add8c7c77954",
+            "source": {
+              "x": 820,
+              "y": 480
+            },
+            "target": {
+              "x": 1040,
+              "y": 390
+            },
+            "vertices": [
+              {
+                "x": 820,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Web Application",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Web Application"
+            ],
+            "id": "eb47f57f-80d2-492b-8496-9e66dfcc95c8",
+            "source": {
+              "x": 630,
+              "y": 440
+            },
+            "target": {
+              "x": 810,
+              "y": 150
+            },
+            "vertices": [
+              {
+                "x": 380,
+                "y": 270
+              },
+              {
+                "x": 360,
                 "y": 210
               },
               {
-                "x": 350,
-                "y": 140
+                "x": 470,
+                "y": 190
+              },
+              {
+                "x": 620,
+                "y": 170
               }
             ]
           },
           {
             "position": {
-              "x": 446.25,
-              "y": 175
+              "x": 590,
+              "y": 220
             },
             "size": {
               "width": 120,
@@ -6473,8 +6618,8 @@
           },
           {
             "position": {
-              "x": 250,
-              "y": 320
+              "x": 360,
+              "y": 360
             },
             "size": {
               "width": 60,
