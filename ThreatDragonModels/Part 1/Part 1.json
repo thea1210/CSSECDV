@@ -4280,7 +4280,33 @@
         "cells": [
           {
             "position": {
-              "x": 100,
+              "x": 49.999999999995225,
+              "y": 20.000000000007987
+            },
+            "size": {
+              "width": 910,
+              "height": 426.5625
+            },
+            "attrs": {
+              "headerText": {
+                "text": "Firewall"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "48a393d8-f555-47cc-a791-1e0297161ca4",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Firewall",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 110,
               "y": 170
             },
             "size": {
@@ -4954,14 +4980,13 @@
             "target": {
               "cell": "e1611cda-8247-47d6-b76d-fcb31c96962d"
             },
-            "vertices": [
-              {
-                "x": 510,
-                "y": 290
-              }
-            ],
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
@@ -4969,7 +4994,77 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Database Server",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Database Server"
+            ],
+            "id": "b19f6b21-1b21-4236-864d-0bf3515cd60e",
+            "source": {
+              "x": 450,
+              "y": 370
+            },
+            "target": {
+              "x": 690,
+              "y": 370
+            },
+            "vertices": [
+              {
+                "x": 570,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Web Application",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Web Application"
+            ],
+            "id": "ce0a84e0-8cc3-4229-95e4-ed959f3c47ac",
+            "source": {
+              "x": 163,
+              "y": 44
+            },
+            "target": {
+              "x": 160,
+              "y": 390
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 210
+              }
+            ]
           },
           {
             "position": {
