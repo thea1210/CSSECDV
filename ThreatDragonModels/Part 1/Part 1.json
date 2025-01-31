@@ -4327,8 +4327,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "48a393d8-f555-47cc-a791-1e0297161ca4",
             "zIndex": -1,
+            "id": "48a393d8-f555-47cc-a791-1e0297161ca4",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Firewall",
