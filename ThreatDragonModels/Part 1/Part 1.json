@@ -33,21 +33,14 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "db17eefb-b4de-4d1d-964c-b7a53d726a90",
             "zIndex": -1,
+            "id": "db17eefb-b4de-4d1d-964c-b7a53d726a90",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Firewall",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1040,38 +1033,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Web Application",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "Web Application"
-            ],
-            "id": "c6444c2e-a637-4068-9c41-38ae3620d4c8",
-            "source": {
-              "x": 198,
-              "y": 0
-            },
-            "target": {
-              "x": 200,
-              "y": 430
-            },
-            "vertices": [
-              {
-                "x": 198,
-                "y": 210
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
               "name": "Database Server",
               "description": "",
               "isTrustBoundary": true,
@@ -1090,6 +1051,32 @@
               "y": 310
             },
             "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Web Application",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Web Application"
+            ],
+            "id": "8b095c1d-5717-423e-93c0-5081a7b66d99",
+            "source": {
+              "x": 405,
+              "y": 14
+            },
+            "target": {
+              "x": 400,
+              "y": 340
+            }
           }
         ]
       },
