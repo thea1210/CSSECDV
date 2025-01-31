@@ -2170,6 +2170,39 @@
         "cells": [
           {
             "position": {
+              "x": 29.999999999995794,
+              "y": 6.565414878423326e-12
+            },
+            "size": {
+              "width": 1060,
+              "height": 496.875
+            },
+            "attrs": {
+              "headerText": {
+                "text": "Firewall"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "d00d7411-7746-49df-be5d-30961abdb156",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Firewall",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
               "x": 70,
               "y": 140
             },
