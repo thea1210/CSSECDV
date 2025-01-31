@@ -2170,8 +2170,8 @@
         "cells": [
           {
             "position": {
-              "x": 60,
-              "y": 120
+              "x": 70,
+              "y": 140
             },
             "size": {
               "width": 112.5,
@@ -2286,8 +2286,8 @@
           },
           {
             "position": {
-              "x": 200,
-              "y": 20
+              "x": 210,
+              "y": 40
             },
             "size": {
               "width": 80,
@@ -2405,8 +2405,8 @@
           },
           {
             "position": {
-              "x": 200,
-              "y": 250
+              "x": 210,
+              "y": 270
             },
             "size": {
               "width": 60,
@@ -2524,8 +2524,8 @@
           },
           {
             "position": {
-              "x": 310,
-              "y": 120
+              "x": 320,
+              "y": 140
             },
             "size": {
               "width": 112.5,
@@ -2640,8 +2640,8 @@
           },
           {
             "position": {
-              "x": 740,
-              "y": 0
+              "x": 750,
+              "y": 20
             },
             "size": {
               "width": 90,
@@ -2759,8 +2759,8 @@
           },
           {
             "position": {
-              "x": 595,
-              "y": 120
+              "x": 605,
+              "y": 140
             },
             "size": {
               "width": 60,
@@ -2878,8 +2878,8 @@
           },
           {
             "position": {
-              "x": 585,
-              "y": 380
+              "x": 595,
+              "y": 400
             },
             "size": {
               "width": 60,
@@ -2997,8 +2997,8 @@
           },
           {
             "position": {
-              "x": 306.25,
-              "y": 310
+              "x": 316.25,
+              "y": 330
             },
             "size": {
               "width": 120,
@@ -3203,8 +3203,8 @@
             },
             "vertices": [
               {
-                "x": 116.25,
-                "y": 60
+                "x": 126.25,
+                "y": 80
               }
             ]
           },
@@ -3251,8 +3251,8 @@
             },
             "vertices": [
               {
-                "x": 116.25,
-                "y": 231
+                "x": 126.25,
+                "y": 251
               }
             ]
           },
@@ -3299,8 +3299,8 @@
             },
             "vertices": [
               {
-                "x": 340,
-                "y": 80
+                "x": 350,
+                "y": 100
               }
             ]
           },
@@ -3347,12 +3347,12 @@
             },
             "vertices": [
               {
-                "x": 250,
-                "y": 210
+                "x": 260,
+                "y": 230
               },
               {
-                "x": 320,
-                "y": 210
+                "x": 330,
+                "y": 230
               }
             ]
           },
@@ -3399,8 +3399,8 @@
             },
             "vertices": [
               {
-                "x": 510,
-                "y": 120
+                "x": 520,
+                "y": 140
               }
             ]
           },
@@ -3447,12 +3447,12 @@
             },
             "vertices": [
               {
-                "x": 510,
-                "y": 180
+                "x": 530,
+                "y": 220
               },
               {
-                "x": 490,
-                "y": 180
+                "x": 510,
+                "y": 220
               }
             ]
           },
@@ -3499,8 +3499,8 @@
             },
             "vertices": [
               {
-                "x": 340,
-                "y": 260
+                "x": 350,
+                "y": 280
               }
             ]
           },
@@ -3547,8 +3547,8 @@
             },
             "vertices": [
               {
-                "x": 420,
-                "y": 260
+                "x": 430,
+                "y": 280
               }
             ]
           },
@@ -3595,8 +3595,8 @@
             },
             "vertices": [
               {
-                "x": 625,
-                "y": 40
+                "x": 635,
+                "y": 60
               }
             ]
           },
@@ -3643,8 +3643,8 @@
             },
             "vertices": [
               {
-                "x": 680,
-                "y": 100
+                "x": 690,
+                "y": 120
               }
             ]
           },
@@ -3691,8 +3691,8 @@
             },
             "vertices": [
               {
-                "x": 615,
-                "y": 330
+                "x": 625,
+                "y": 350
               }
             ]
           },
@@ -3739,8 +3739,8 @@
             },
             "vertices": [
               {
-                "x": 685,
-                "y": 380
+                "x": 695,
+                "y": 400
               }
             ]
           },
@@ -3787,8 +3787,8 @@
             },
             "vertices": [
               {
-                "x": 590,
-                "y": 240
+                "x": 600,
+                "y": 260
               }
             ]
           },
@@ -3835,8 +3835,8 @@
             },
             "vertices": [
               {
-                "x": 685,
-                "y": 220
+                "x": 695,
+                "y": 240
               }
             ]
           },
@@ -3883,12 +3883,12 @@
             },
             "vertices": [
               {
-                "x": 840,
-                "y": 40
+                "x": 850,
+                "y": 60
               },
               {
-                "x": 890,
-                "y": 60
+                "x": 900,
+                "y": 80
               }
             ]
           },
@@ -3935,15 +3935,105 @@
             },
             "vertices": [
               {
-                "x": 760,
-                "y": 150
+                "x": 770,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Web Application",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Web Application"
+            ],
+            "id": "a377bd02-ec24-444a-b8e8-63f9878ff296",
+            "source": {
+              "x": 183,
+              "y": 20
+            },
+            "target": {
+              "x": 190,
+              "y": 430
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Database Server",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Database Server"
+            ],
+            "id": "bb0e9abb-a75c-4dac-bb47-8f4cc48e2d5e",
+            "source": {
+              "x": 270,
+              "y": 356
+            },
+            "target": {
+              "x": 500,
+              "y": 360
+            },
+            "vertices": [
+              {
+                "x": 380,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Data Encryption",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Data Encryption"
+            ],
+            "id": "d591fe21-6d5c-4768-bd05-21dda2ed2dca",
+            "source": {
+              "x": 575,
+              "y": 80
+            },
+            "target": {
+              "x": 580,
+              "y": 310
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 200
               }
             ]
           },
           {
             "position": {
-              "x": 655,
-              "y": 276
+              "x": 665,
+              "y": 296
             },
             "size": {
               "width": 60,
@@ -4061,8 +4151,8 @@
           },
           {
             "position": {
-              "x": 904,
-              "y": 120
+              "x": 914,
+              "y": 140
             },
             "size": {
               "width": 60,
