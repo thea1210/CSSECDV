@@ -2184,21 +2184,14 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "d00d7411-7746-49df-be5d-30961abdb156",
             "zIndex": -1,
+            "id": "d00d7411-7746-49df-be5d-30961abdb156",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Firewall",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
